@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
   buttonText: {
     fontFamily: "Dimbo",
     fontSize: 32,
+    whiteSpace: "nowrap",
     color: colors.grayDark,
   },
 });

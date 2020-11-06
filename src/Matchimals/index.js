@@ -96,7 +96,7 @@ const Matchimals = ({ backToMainMenu, ctx, G, moves, ...rest }) => {
             right: Math.max(insets.right, 16),
           }}
         >
-          PASS
+          パス
         </Button>
         <CircleButton
           onPress={() => setShowMenu(true)}

@@ -20,7 +20,7 @@ const Menu = ({ numPlayers, onNumPlayersChange, startGame }) => {
   return (
     <ImageBackground source={require("./trianglify.png")} style={styles.root}>
       <>
-        <Text style={styles.text}>HOW MANY PLAYERS?</Text>
+        <Text style={styles.text}>プレヤーの人数を選んでください</Text>
         <View
           style={{
             width: 280,
@@ -67,7 +67,7 @@ const Menu = ({ numPlayers, onNumPlayersChange, startGame }) => {
               right: Math.max(insets.right, 8),
             }}
           >
-            {music.paused ? "🔇 " : "🔈 "} MUSIC
+            {music.paused ? "🔇 " : "🔈 "} 背景音楽
           </Button>
         )}
       </>
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   text: {
     color: colors.grayDark,
     fontFamily: "Dimbo",
-    fontSize: 48,
+    fontSize: 24,
     lineHeight: 60,
     marginBottom: 32,
   },

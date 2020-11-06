@@ -28,7 +28,7 @@ const Menu = ({
           onPress={() => music?.setPaused(!music?.paused)}
           style={{ marginBottom: 24 }}
         >
-          {music?.paused ? "TURN MUSIC ON" : "TURN MUSIC OFF"}
+          {music?.paused ? "音楽ON" : "音楽OFF"}
         </Button>
       )}
       <Button
@@ -39,17 +39,17 @@ const Menu = ({
         }}
         style={{ marginBottom: 24 }}
       >
-        SCROLL TO CENTER
+        中央に戻る
       </Button>
       <Button
         color={colors.redLight}
         onPress={backToMainMenu}
         style={{ marginBottom: 24 }}
       >
-        EXIT TO MAIN MENU
+        メイン画面に戻る
       </Button>
       <Button color="#fff" onPress={hide}>
-        BACK TO GAME
+        ゲームに戻る
       </Button>
 
       <DevTools moves={moves} />
