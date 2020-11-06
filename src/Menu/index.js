@@ -46,7 +46,7 @@ const Menu = ({
         onPress={backToMainMenu}
         style={{ marginBottom: 24 }}
       >
-        メイン画面に戻る
+        ホームに戻る
       </Button>
       <Button color="#fff" onPress={hide}>
         ゲームに戻る
